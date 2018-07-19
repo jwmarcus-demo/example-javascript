@@ -1,0 +1,23 @@
+{
+  "name": "example-javascript",
+  "version": "0.0.1",
+  "description": "Create an example node.js + express project and show what commits look like.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwmarcus-demo/example-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwmarcus-demo/example-javascript/issues"
+  },
+  "homepage": "https://github.com/jwmarcus-demo/example-javascript#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
