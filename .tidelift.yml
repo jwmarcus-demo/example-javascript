@@ -1,7 +1,4 @@
-# Example policy configuration test
-
 tests:
-
     # package doesn't seem to exist anymore
     removed: 
         skip
@@ -32,20 +29,5 @@ tests:
 
 
 licensing:
-    # Use only one or the other.
-    
-    # allowed:
-    #   - AAL
-    #   - 0BSD
-
-    # disallowed:
-    #   - AGPL-1.0-or-later
-    #   - AGPL-3.0-only
-    
-
-exceptions:
-    # Except a specific package from a policy test
-    # - name:
-    #   platform: rubygems
-    #   tests:
-    #     - license_prohibited
+  allowed:
+    - BSD-2-Clause-Patent
